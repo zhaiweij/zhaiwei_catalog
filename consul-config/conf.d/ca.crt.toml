@@ -1,0 +1,8 @@
+[template]
+src = "ca.crt.tmpl"
+dest = "/opt/rancher/ssl/ca.crt"
+owner = "root"
+mode = "0644"
+keys = [
+  "/self/service/metadata/ca.crt",
+]
