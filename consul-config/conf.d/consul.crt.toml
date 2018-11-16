@@ -1,8 +1,0 @@
-[template]
-src = "consul.crt.tmpl"
-dest = "/opt/rancher/ssl/consul.crt"
-owner = "root"
-mode = "0644"
-keys = [
-  "/self/service/metadata/consul.crt",
-]
