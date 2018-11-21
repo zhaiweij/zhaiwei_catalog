@@ -23,7 +23,7 @@ consul-data:
     - /opt/rancher/config
   net: none
 consul:
-  image: registry.cn-beijing.aliyuncs.com/consul/consul-repo:0.1.7
+  image: registry.cn-beijing.aliyuncs.com/zhaiwei_test/consul-config:0.1.5
   labels:
     io.rancher.container.hostname_override: container_name
     io.rancher.sidekicks: consul-base,consul-data
