@@ -1,7 +1,7 @@
 .catalog:
   name: "Consul"
   description: "Secure Consul cluster"
-  version: "1.3.0-rancher2"
+  version: "1.4.2-rancher2"
   uuid: consul-0
   questions:
     - variable: ui
